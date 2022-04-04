@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="connexion">connexion</style>
+
+    <style name="nom_et_pr_n">Nom et Prénom</style>
+
+    <style name="adresseMail">Adresse mail</style>
+
+    <style name="Numero">Numéro de téléphone</style>
+
+    <style name="Répéterlemotdepasse">Répéter le mot de passe</style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar"></style>
+</resources>

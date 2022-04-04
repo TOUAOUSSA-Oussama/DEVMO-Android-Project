@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DEVMO_AGRI_AI</string>
+    <string name="connexion">Connexion</string>
+    <string name="bienvenue_s">Bienvenue sur AGRI-AI</string>
+    <string name="commencer">Commencer</string>
+    <string name="tutoriel_su">Tutoriel sur l’application</string>
+    <string name="cr_ez_un_co">Créez un compte pour bénéficier d\'un suivi hebdomadaire ou pour communiquer avec d\'autres utilisateurs</string>
+    <string name="nom_et_pr_n">Nom et Prénom</string>
+    <string name="adresseMail">Adresse mail</string>
+    <string name="numero">Numéro de téléphone</string>
+    <string name="MotDePasse">Mot de passe</string>
+    <string name="Répéterlemotdepasse">Répéter le mot de passe</string>
+    <string name="Comment">Comment avez-vous entendu parler de nous ?</string>
+    <string name="creer">CRÉER UN COMPTE</string>
+    <string name="vous_avez_d">Vous avez déjà un compte ? Se connecter</string>
+    <string name="connecter">Se connecter</string>
+</resources>

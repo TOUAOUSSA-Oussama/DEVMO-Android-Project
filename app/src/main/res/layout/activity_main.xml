@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/connexion"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/logo"
+        android:layout_width="279dp"
+        android:layout_height="248dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/image_1"
+        android:layout_width="379dp"
+        android:layout_height="235dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/image_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+    <TextView
+        android:id="@+id/bienvenue_s"
+        android:layout_width="309dp"
+        android:layout_height="43dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal|top"
+        android:text="@string/bienvenue_s"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_1" />
+
+    <!-- Connexion -->
+
+    <View
+        android:id="@+id/rectangle_4"
+        android:layout_width="171dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:width="171dp"
+        android:height="50dp"
+        android:background="@drawable/rectangle_4"
+        android:viewportWidth="171"
+        android:viewportHeight="50"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bienvenue_s"
+        app:layout_constraintVertical_bias="0.503"
+        android:onClick="launchCreationCompte"
+        />
+
+    <TextView
+        android:id="@+id/connexionText"
+        android:layout_width="97dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="@string/connexion"
+        android:textAppearance="@style/connexion"
+        android:textColor="#F7F7F7"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_4"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_4"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_4"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_4" />
+
+    <!-- Commencer -->
+
+    <View
+        android:id="@+id/rectangle_5"
+        android:layout_width="171dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="8dp"
+        android:width="171dp"
+        android:height="50dp"
+        android:background="@drawable/rectangle_5"
+        android:viewportWidth="171"
+        android:viewportHeight="50"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.849"
+        app:layout_constraintStart_toEndOf="@+id/rectangle_4"
+        app:layout_constraintTop_toBottomOf="@+id/bienvenue_s"
+        app:layout_constraintVertical_bias="0.503" />
+
+    <TextView
+        android:id="@+id/commencerText"
+        android:layout_width="135dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="@string/commencer"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_5"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_5"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_5"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_5"
+        android:onClick="directAccess"/>
+
+    <TextView
+        android:id="@+id/tutoriel_su"
+        android:layout_width="198dp"
+        android:layout_height="23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal|top"
+        android:text="@string/tutoriel_su"
+        android:textColor="#828282"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_5" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
